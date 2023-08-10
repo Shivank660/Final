@@ -7,7 +7,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Checkout the repository from your Git repository URL using the 'main' branch
-                git branch: 'main', url: 'https://github.com/dharabarot19/finalexam-devops.git'
+                git branch: 'main', url: 'https://github.com/Shivank660/Final.git'
             }
         }
 
